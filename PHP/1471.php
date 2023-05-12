@@ -3,7 +3,7 @@
 while (true) {
   $entrada = fgets(STDIN);
   if ($entrada == false) break;
-
+  
   list($n, $r) = explode(" ", trim($entrada));
   $n = (int)$n;
   $r = (int)$r;
